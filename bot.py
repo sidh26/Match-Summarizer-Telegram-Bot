@@ -38,7 +38,7 @@ class BotHandlerMixin:
 
 
 class TelegramBot(BotHandlerMixin, Bottle):
-    BOT_URL = 'https://api.telegram.org/bot1223437002:AAGppaUdzRoMmpw1Z4wyN5xP_pP_TClxw08/'
+    BOT_URL = ''
     
     def __init__(self, *args, **kwargs):
         self.df = pd.read_csv("D:/Downloads/events.csv")
